@@ -1,0 +1,10 @@
+Checks: 'bugprone-*,
+         modernize-*,
+         performance-*,
+         readability-*,
+         cppcoreguidelines-*,
+         -readability-braces-around-statements,
+         -cppcoreguidelines-pro-bounds-pointer-arithmetic,
+         -modernize-use-trailing-return-type'
+
+WarningsAsErrors: '*'
