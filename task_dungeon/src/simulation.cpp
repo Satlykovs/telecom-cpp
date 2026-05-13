@@ -114,6 +114,7 @@ bool Simulation::collectBestResource(Room& room)
     }
     return true;
 }
+
 std::vector<int> Simulation::findPath(int targetId, bool onlyVisited)
 {
     int n = config_.rooms.size();
